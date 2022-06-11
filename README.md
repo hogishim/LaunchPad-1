@@ -1,63 +1,30 @@
 # Android LaunchPad application
 A android launch pad application for Gachon University 2022 1st semester Mobile Programming 
 
-### Basic information
+### Brief Description
 
-* #### LabelEncoder
+* #### 4 Types of instruments: users can play 4 instruments in the app, easy to switch from one another
+* #### 12 pad buttons: using 12 buttons in the app, users can easily play music
+* #### 8 loop stations: maximum 8 loops can be used, users can play 8 roles at the same time
+
   * input parameter : org_df
    * org_df (type: DataFrame) >> Target of LabelEncoding
   * output : Return DataFrame after LabelEncoding
 
-* #### MinMaxScaler
 
-  * input parameter : org_df, target, showPlot
-   * org_df (type: DataFrame) >> Target of MinMaxScaling
-   * target (type: String) >> Feature name of target value
-   * showPlot (type: bool, default=False) >> Whether to plot the result
-  * output : Return DataFrame that after MinMaxScaling. Drawing graph based on whether or not plotting
+### Basic information
 
-* #### RobustScaler
 
-  * input parameter : org_df, target, showPlot
-   * org_df (type: DataFrame) >> Target of RobustScaling
-   * target (type: String) >> Feature name of target value
-   * showPlot (type: bool, default=False) >> Whether to plot the result
-  * output : Return DataFrame that after RobustScaling. Drawing graph based on whether or not plotting
 
-* #### StandardScaler
 
-  * input parameter : org_df, target, showPlot
-   * org_df (type: DataFrame) >> Target of StandardScaling
-   * target (type: String) >> Feature name of target value
-   * showPlot (type: Bool, default=False) >> Whether to plot the result
-  * output : Return DataFrame that after StandardScaling. Drawing graph based on whether or not plotting
+### Basic information
 
-* #### DecisionTree
 
-  * input parameter : scaled_df, target, test_size, shuffle, criterion, showPlot
-   * scaled_df (type: DataFrame) >> Target of DecisionTree that after Scaling
-   * target (type: String) >> Feature name of target value
-   * test_size (type: Float, default: 0.25) >> Specify testset ratio when training_test_split
-   * shuffle (type: Bool, default: False) >> Specify whether shuffle when training_test_split
-   * criterion (type: String, default: 'gini') >> Determine the type of criterion used in Decision Tree
-   * showPlot (type: bool, default=False) >> Whether to plot the result
-  * output : Show DecisionTree score and confision matrix. Drawing tree based on whether or not plotting
 
-* #### KNN
 
-  * input parameter : scaled_df, target, test_size, shuffle, k
-   * scaled_df (type: DataFrame) >> Target of DecisionTree that after Scaling
-   * target (type: String) >> Feature name of target value
-   * test_size (type: Float, default: 0.25) >> Specify testset ratio when training_test_split
-   * shuffle (type: Bool, default: False) >> Specify whether shuffle when training_test_split
-   * k (type: Int, default: 3) >> Specify a value for n_neighbors in KNN
-  * output : Show KNN score evaluated by cross_validation=5 and confision matrix
+### Basic information
 
-* #### LinearReg
 
-  * input parameter : scaled_df, target, test_size, shuffle
-   * scaled_df (type: DataFrame) >> Target of DecisionTree that after Scaling
-   * target (type: String) >> Feature name of target value
-   * test_size (type: Float, default: 0.25) >> Specify testset ratio when training_test_split
-   * shuffle (type: Bool, default: False) >> Specify whether shuffle when training_test_split
-  * output : Show regression score
+
+### Basic information
+
