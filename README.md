@@ -63,7 +63,16 @@ A android launch pad application for Gachon University 2022 1st semester Mobile 
 
 
 ### How to use
-1. 
+1. Download .zip file of our application
+2. Run project on Android Studio
+3. Touch anywhere on screen to start
+4. To change instruments click top-left button, slide left to right to see more instruments
+5. Press button on top-right to turn on/off metronome, press it for a while to change settings for metronome
+6. 8 buttons in the middle manages loop station. Press it to start recording
+7. After recording loop station, press it short to play, press it for a while to delete it
+8. Button on the top-middle is for playing the whole recorded loop
+9. 12 buttons each represent each keys
+10. For pianos, press button in the bottom to change octave
 
 
 
