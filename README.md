@@ -63,7 +63,7 @@ A android launch pad application for Gachon University 2022 1st semester Mobile 
 
 
 ### How to use
-
+1. 
 
 
 
