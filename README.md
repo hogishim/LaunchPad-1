@@ -7,11 +7,6 @@ A android launch pad application for Gachon University 2022 1st semester Mobile 
 * #### 12 pad buttons: using 12 buttons in the app, users can easily play music
 * #### 8 loop stations: maximum 8 loops can be used, users can play 8 roles at the same time
 
-  * input parameter : org_df
-   * org_df (type: DataFrame) >> Target of LabelEncoding
-  * output : Return DataFrame after LabelEncoding
-
-
 ### Contents
 * #### Metronome 
   * Metronome is used for setting and playing tempo
@@ -46,6 +41,7 @@ A android launch pad application for Gachon University 2022 1st semester Mobile 
   * Press and hold the READY button for more than 1 second to clear the saved sound. Function for re-recording when recorded notes are incorrect or played incorrectly
   * All independently operated by button. The other button is disabled when another button is recording. It is possible to play in batches and stop in batches through the button located in the center of the top.
   * Can be played using a pad even when the roof station is operating
+
 
 
 ### Implementation Details
