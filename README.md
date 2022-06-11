@@ -45,6 +45,9 @@ A android launch pad application for Gachon University 2022 1st semester Mobile 
 
 
 ### Implementation Details
+* #### Metronome 
+* #### Metronome 
+* #### Metronome 
 
 
 
