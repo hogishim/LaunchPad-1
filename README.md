@@ -39,15 +39,25 @@ A android launch pad application for Gachon University 2022 1st semester Mobile 
   * The center button shows the progress of the current beat so that you can record it continuously
   * After recording, it changes to "READY". In the READY state, the button can be pressed once again to play. Play looped music until you press it again to stop
   * Press and hold the READY button for more than 1 second to clear the saved sound. Function for re-recording when recorded notes are incorrect or played incorrectly
-  * All independently operated by button. The other button is disabled when another button is recording. It is possible to play in batches and stop in batches through the button located in the center of the top.
+  * All independently operated by button. The other button is disabled when another button is recording. It is possible to play in batches and stop in batches through the button located in the center of the top
   * Can be played using a pad even when the roof station is operating
 
 
 
 ### Implementation Details
-* #### Metronome 
-* #### Metronome 
-* #### Metronome 
+* #### SoundPool
+  * There are two main classes of playing sounds - SoundPool, MediaPlayer, where MediaPlayer is used to play long sounds, such as videos, or to play videos. In the case of the pad button we use, we used the SoundPool class because the sound needs to be played short and fast
+* #### Thread
+  * The functions of the app needs various parts such as metronome and loop station to run independently. Therefore, variables and methods for creating threads and managing threads were implemented.
+  * To prevent conflicts between threads, place constraints on shared data so if other threads are manipulating variables, wait until they are finished, or leave the data safely and then let another Thread access
+  * Threads used and finished for RAM memory efficiency should be immediately released. For example, stop, release, null the AudioTrack used in one thread, and release the thread
+  * Avoid simultaneous operation of Record Thread and Player Thread (in case of sound being played while recording)
+* #### Looping
+  * In the case of Media Player, there is a basic method for looping. But app used AudioTrack to play music without delay. AudioTrack does not have a loop method, so it is implemented to read sound data directly through the stream and repeat it again without delay
+* #### etc.
+  * Constraints against progression beyond the upper and lower octave limits
+  * Wave using ripple tag for effect on buttons
+
 
 
 
