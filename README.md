@@ -1,5 +1,5 @@
-# data_science_module
-It focused on easy and fast use by modularization from data preprocessing to modeling.
+# Android LaunchPad application
+A android launch pad application for Gachon University 2022 1st semester Mobile Programming 
 
 ### Module Information
 
