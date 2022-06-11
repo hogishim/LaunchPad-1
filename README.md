@@ -24,7 +24,7 @@ A android launch pad application for Gachon University 2022 1st semester Mobile 
   * Consists of piano, drum, bass, and guitar
   * Selectable instruments using ScrollView in the upper left corner
   * For piano and the bass, the note of each button is mapped, so you can play it in various ways
-  * * For pianos, the octave can be changed using the octave change button at the bottom, as the range used varies (octave from 1 to 5)
+  * For pianos, the octave can be changed using the octave change button at the bottom, as the range used varies (octave from 1 to 5)
   * For drums, 12 basic sounds are mapped
   * For guitar, if you map each note, it is difficult to make an overall sound, so you have to map the sound by strum method, which is a method of making harmony while sweeping down the guitar string with your hands. So you can make rich sounds with just single button
 
@@ -37,12 +37,12 @@ A android launch pad application for Gachon University 2022 1st semester Mobile 
 
 
 * #### Loop station
-  * A loop station is a function of repeatedly playing recorded sounds, which allows other sounds to be stacked on the recorded section.
-  * It consists of eight buttons, each button can have one loop. So you can create a total of 8 loops (you'll understand if you watch the video)
-  * When you press the first button, you play a beat according to the beat and tempo specified by the metronome, and the recording begins. (Listen to me because I need to record the beat consistently) (4/4 beats,)
+  * A loop station is a function of repeatedly playing recorded sounds, which allows other sounds to be stacked on the recorded section
+  * It consists of eight buttons, each button can have one loop. So you can create a total of 8 loops
+  * When you press the first button, you play a beat according to the beat and tempo specified by the metronome, and the recording begins
   * The REC mark appears and recording proceeds, and the recording length is four times that of the designated beat table, so that four bars are recorded. For example, if it's 4/4 beats, the recording is done for a time that can hold 16 quarter notes
   * The center button shows the progress of the current beat so that you can record it continuously
-  * After recording, it changes to "READY". In the READY state, the button can be pressed once again to play. Play looped music until you press it again and stop
+  * After recording, it changes to "READY". In the READY state, the button can be pressed once again to play. Play looped music until you press it again to stop
   * Press and hold the READY button for more than 1 second to clear the saved sound. Function for re-recording when recorded notes are incorrect or played incorrectly
   * All independently operated by button. The other button is disabled when another button is recording. It is possible to play in batches and stop in batches through the button located in the center of the top.
   * Can be played using a pad even when the roof station is operating
