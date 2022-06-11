@@ -14,9 +14,11 @@ A android launch pad application for Gachon University 2022 1st semester Mobile 
 
 ### Contents
 * #### Metronome
-  * input parameter : org_df
-   * org_df (type: DataFrame) >> Target of LabelEncoding
-  * output : Return DataFrame after LabelEncoding
+Metronome setting and fast (tempo) setting function
+- Helps you play notes on the right beat. Also used to specify the beat and tempo of the music to be recorded when using a loop station.
+- Pressing the metronome button allows you to set three time ticks and additional tempo.
+- In the case of tempo, the types of tempo used musically are listed and ordered.
+- Can change value while running metronome
 
 * #### Instrument
   * input parameter : org_df
@@ -41,4 +43,7 @@ A android launch pad application for Gachon University 2022 1st semester Mobile 
 
 
 ### How to use
+
+
+
 
