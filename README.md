@@ -12,19 +12,33 @@ A android launch pad application for Gachon University 2022 1st semester Mobile 
   * output : Return DataFrame after LabelEncoding
 
 
-### Basic information
+### Contents
+* #### Metronome
+  * input parameter : org_df
+   * org_df (type: DataFrame) >> Target of LabelEncoding
+  * output : Return DataFrame after LabelEncoding
+
+* #### Instrument
+  * input parameter : org_df
+   * org_df (type: DataFrame) >> Target of LabelEncoding
+  * output : Return DataFrame after LabelEncoding
+
+* #### Pad
+  * input parameter : org_df
+   * org_df (type: DataFrame) >> Target of LabelEncoding
+  * output : Return DataFrame after LabelEncoding
+
+
+* #### Loop station
+  * input parameter : org_df
+   * org_df (type: DataFrame) >> Target of LabelEncoding
+  * output : Return DataFrame after LabelEncoding
+
+
+### Implementation Details
 
 
 
 
-### Basic information
-
-
-
-
-### Basic information
-
-
-
-### Basic information
+### How to use
 
